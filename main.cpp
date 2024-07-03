@@ -42,6 +42,10 @@ int main() {
       cout << "Hasil dari " << num1 << " x " << num2 << " = " << num1 * num2;
       break;
     case 4:
+      if (num2 == 0) {
+        printf("Error, tidak bisa dibagi dengan angka 0!");
+        break;
+      }
       cout << "Hasil dari " << num1 << " / " << num2 << " = " << num1 / num2;
       break;
     case 5:
